@@ -50,7 +50,7 @@ You can also test the IP information through docker with running this image:
 
 > docker run --rm  alpine sh -c "apk add wget && wget -qO- https://ipinfo.io"
 
-This should output all information regarding your internet connection. 
+This should output all information regarding your internet ISP (non-vpn) connection. 
 
 Now, when your gluetun container is running, use the same command as above and use the gluetun network as the transport layer
 
